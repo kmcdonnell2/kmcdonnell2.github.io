@@ -47,7 +47,7 @@ function myFunction() {
 
         text += "<p>GPA should be " + gpa.toFixed(3) + "</p>";
 
-        text+= "<p><i>Now that you know your GPA and number of credits, try my GPA predictor by <a href =\"https://gpa-predictor.kmcdonnell2.repl.co/\" target=\"_blank\">clicking here</a></i>.</p>"
+        //text+= "<p><i>Now that you know your GPA and number of credits, try my GPA predictor by <a href =\"https://gpa-predictor.kmcdonnell2.repl.co/\" target=\"_blank\">clicking here</a></i>.</p>"
     }
     document.getElementById("demo").innerHTML = text;
 }
